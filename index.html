@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1 style="text-align: center;">First Portfolio</h1>
+        <div class="link">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="home" class="home">
+        <div>
+            <p class="smtxt">HELLO, I AM</p>
+            <h1>Arpit Chandrakar</h1>
+            <p class="intro" style>I am an first year Student at Scaler School of Technology, Bengaluru and my opted program is Computer Science AI/Ml. I am a very enthusiastic learner and always eager to take on new challenges and I am also a sport person because I love playing Football,Cricket and Badminton . </p>
+            <div class="button">
+                <a class="button red" href="#projects">My Projects</a>
+                <a class="button blue" href="#contact">how to Contact Me?</a>
+            </div>
+            
+        </div>
+            <div>
+                <img id="myimg" style="display: block;width:300px;height:300px;border-radius:50%;border:2px solid #ccc;box-shadow: 0 4px 8px rgba(0,0,0,0.1);" src="p2.jpeg" alt="Arpit Chandrakar">
+            </div>
+        </div>
+        
+        
+    </section>
+    <div>
+       
+        <div class="Box-learning">
+                <p Style="font-size: 29px; font-weight: bold;color:rgb(31, 6, 6)" >Currently learning</p>
+                <h3>Java , Web Development And Discrete Mathematics</h3>
+                <p>I am impoving my self a lot by practicing regularly and learning new concepts.and making new projects.</p>
+                <br>
+                <br>
+                <p Style="font-size: 29px; font-weight: bold;color:rgb(31, 6, 6)" >What I have learned so far:</p>
+                <h3>Basics of HTML and Python as my first programming language</h3>
+        </div>
+    </div>
+    <section id="about" class="section">
+        <p style="font-size: 32px; border:3px solid black; padding: 10px; width: 200px;background-color: #f0f0f0;">ABOUT ME</p>
+        <h2 style="color:rgb(172, 22, 22);">Who Am I?</h2>
+        <p class="text"Style="font-size: 24px; line-height: 1.6;">As I have mentioned above, I am Arpit Chandrakar.I am an 18 year old boy from the beautiful city of Chhatisgarh. Currently, I am pursuing my degree in Computer Science with a specialization in Artificial Intelligence and Machine Learning for Bits Pilani online B.Sc program and </p>
+        <p class="text">I enjoy building simple things, learning from mistakes and improving my coding step by step.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <p class="little-text" style="font-size: 32px; border:3px solid black; padding: 10px; width: 200px;background-color: #f0f0f0;">Projects</p>
+        <h2 style="color:rgb(172, 22, 22);"> their Purpose</h2>
+        <div class="projects">
+            <div class="project">
+                <p class="pronum">01</p>
+                <h3>Sports Management application</h3>
+                <p>A simple application for managing sports-related activities and information.I had made it as an School project and it was a great experience to learn how to manage a project and work in a team and Leading a team and managing the project and also learning how to work with different technologies and tools.</p>
+            </div>
+            <div class="project">
+                <p class="pronum">02</p>
+                <h3>Java Practice</h3>
+                <p>For a small period of time I have not made worked on any project but practiced Java and learned some basic concepts of Java like Arrays, Loops and Conditionals. I have also learned some Linux Commands and how to use them in Java.</p>
+            </div>
+            <div class="project">
+                <p class="pronum">03</p>
+                <h3>Bell Management System</h3>
+                <p>A system for managing bell schedules and notifications in a school environment.THIS I have made using HTML and CSS and it was a great experience to learn how to manage a project. This I had made for my School Bell Mnager Application.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <p class="Chotatxt" style="font-size: 32px; border:3px solid black; padding: 10px; width: 200px;background-color: #f0f0f0;">SKILLS</p>
+        <h2 style="color:rgb(172, 22, 22);">What Am I Learning?</h2>
+        <div class="skills">
+            <div class="skill red-box">
+                <h3>Java</h3>
+                <p>Linux Commands and Java basics like Arrays, Loops and Conditionals.</p>
+            </div>
+            <div class="skill blue-box">
+                <h3>HTML</h3>
+                <p>Page structure, forms, links, semantic tags, and tables.</p>
+            </div>
+            <div class="skill red-box">
+                <h3>CSS</h3>
+                <p>Selectors, box model, Flexbox, Grid and responsive layouts.</p>
+            </div>
+            <div class="skill blue-box">
+                <h3>Problem Solving</h3>
+                <p>Learning how to break a problem into smaller steps and solving it more efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <p class="StuartLittle"  Style="font-size: 32px;">CONTACT ME</p>
+        <h2>I know you might have some questions!</h2>
+        <p class="text">Maybe you wanna share a project idea or just chat? Just say hello!</p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Share something interesting with me!" required></textarea>
+            <input class="red submit" type="submit" value="Send Message">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Arpit Chandrakar. Learning in progress.</p>
+</footer>
+
+</body>
+</html>
